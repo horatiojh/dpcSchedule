@@ -1,0 +1,2 @@
+# DPC Schedule Scraper
+A scraper to get the games being played each week in the Dota Pro Circuit (DPC), so that I don't have to manually monitor the games that I want to watch anymore. Built over [`liquipediapy`](https://github.com/c00kie17/liquipediapy), thanks `c00kie17`! Still very much in beta, there are a number of changes still to be made!
