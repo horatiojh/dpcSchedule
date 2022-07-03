@@ -166,7 +166,8 @@ def printScheduleToTerminal(scheduleList, week, shouldSort):
 
 
 def convertDateTime(dateString, region):
-	timeToAdd = calculateRegionTimeDiff(region)
+	# timeToAdd = calculateRegionTimeDiff(region)
+	timeToAdd = 8
 	format = '%B %d, %Y - %H:%M'
 	tmp = datetime.strptime(dateString, format)
 	newTime = tmp + timedelta(hours=timeToAdd)
@@ -189,7 +190,7 @@ def calculateRegionTimeDiff(region):
 	if region == "EU":
 		return 8
 	if region == "CIS":
-		return 7
+		return 8
 	if region == "NA":
 		return -16
 	if region == "SA":

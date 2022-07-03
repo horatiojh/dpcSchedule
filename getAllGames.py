@@ -7,11 +7,11 @@ from helpers import *
 
 # Which week do we want to generate the schedule for 
 season = 3
-week = 4
+week = 5
 
 
 # filter teams we want to see
-div1Teams = ['OG', 'Secret', 'Tundra', 'Liquid', 'EG', 'UND', 'QC', 'BOOM', 'Fnatic', 'T1', 'PSG.LGD', 'Aster', 'RNG', 'Xtreme', 'NAVI', 'TSpirit'] 
+div1Teams = ['OG', 'Secret', 'Tundra', 'Liquid', 'EG', 'UND', 'QC', 'BOOM', 'Fnatic', 'T1', 'RSG', 'Talon', 'PSG.LGD', 'Aster', 'RNG', 'Xtreme', 'NAVI', 'TSpirit', 'Otsd'] 
 div2Teams = ['NGX', 'Bald']
 
 # pages with dpc schedule
